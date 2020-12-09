@@ -11,29 +11,29 @@ let compRandom = Math.floor(Math.random() * 3) + 1;
 function play(rock) {
   if (rock < compChoice) {
     return "rock wins"
-  } else if {
+  } else if (rock > compChoice) {
     return "paper wins"
   } else {
-    "it's a draw"
+    return "it's a draw"
   }
 }
 
 function play(paper) {
-  if (paper <= compChoice) {
+  if (paper < compChoice) {
     return "paper wins"
-  } else if {
+  } else if (paper > compChoice) {
     return "paper wins"
   } else {
-    "it's a draw"
+    return "it's a draw"
   }
 }
 
 function play(scissors) {
   if (scissors < compChoice) {
     return "paper wins"
-  } else if {
+  } else if (scissors > compChoice) {
     return "scissors wins"
   } else {
-    "it's a draw"
+    return "it's a draw"
   }
 }
