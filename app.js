@@ -4,36 +4,51 @@ let rock = 1
 let paper = 2
 let compChoice = 2
 let scissors = 3
-let compRandom = Math.floor(Math.random() * 3) + 1;
+// let compRandom = (Math.floor(Math.random() * 3) + 1)
 
 
+// function randomizer() {
+//   let x = (Math.floor(Math.random() * 3) + 1)
+// }
 
-function play(rock) {
+function playRock() {
   if (rock < compChoice) {
-    return "rock wins"
+    return alert("rock wins")
   } else if (rock > compChoice) {
-    return "paper wins"
+    return alert("paper wins")
   } else {
-    return "it's a draw"
+    return alert("it's a draw")
   }
 }
 
-function play(paper) {
+function playPaper() {
   if (paper < compChoice) {
-    return "paper wins"
+    return alert("paper wins")
   } else if (paper > compChoice) {
-    return "paper wins"
+    return alert("paper wins")
   } else {
-    return "it's a draw"
+    return alert("it's a draw")
   }
 }
 
-function play(scissors) {
+function playScissors() {
   if (scissors < compChoice) {
-    return "paper wins"
+    return alert("paper wins")
   } else if (scissors > compChoice) {
-    return "scissors wins"
+    return alert("scissors wins")
   } else {
-    return "it's a draw"
+    return alert("it's a draw")
   }
 }
+
+
+
+// function play(choice) {
+//   if (choice == 'paper') {
+//     return "draw"
+//   } else if (choice == 'rock') {
+//     return "paper wins"
+//   } else if (choice == 'scissors') {
+//     return
+//   } else "rock wins"
+// }
